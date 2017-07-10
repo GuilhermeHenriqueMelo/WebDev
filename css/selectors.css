@@ -1,0 +1,39 @@
+/*Element*/
+li {
+    
+}
+
+/*Class*/
+.hello {
+    
+}
+
+/*ID*/
+#name {
+    
+}
+
+/*Star*/
+* {
+    
+} /*It applies the style to every HTML component*/
+
+/*Descendant Selector*/
+'element' 'another' {
+    
+} /*It applies the style to the element(another) that is inside of another element(element)*/
+
+/*Adjacent Selector*/
+'element' + 'another' {
+    
+}/*It applies the style to the element(another) that comes after the initial element(element)*/
+
+/*Attribute Selector*/
+'element'[attribute] {
+    
+} /*It applies the style to the element that has the corresponding attribute*/
+
+/*nth of type*/
+'element':nth-of-type(number) {
+    
+} /*It applies the style to the "nth(number)" element in the HTML*/

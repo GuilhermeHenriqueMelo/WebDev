@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Register yourself</title>
+        </head>
+        
+        <body>
+            <h1>Register</h1>
+            
+            <form>
+                <label for="firstName">First Name:</label>
+                <input name="firstName" id="firstName" type="text" placeholder="First Name" required>
+                
+                <label for="lastName">Last Name:</label>
+                <input name="lastName" id="lastName" type="text" placeholder="Last Name" required>
+                
+                 <div>
+                    <label for="maleChoice">Male
+                    </label>
+                    <input name="choice" id="maleChoice" type="radio" value="male">
+
+                    <label for="femaleChoice">Female</label>
+                    <input name="choice" id="femaleChoice" type="radio" value="female">
+
+                    <label for="otherChoice">Other</label>
+                    <input name="choice" id="otherChoice" type="radio" value="other">
+                </div>
+                
+                <div>
+                    <label for="email">
+                        Email:
+                        <input name="enderecoEmail" id="email" type="email" required>
+                    </label>
+                    
+                
+                    <label for="password">
+                        Password:
+                        <input name="passW" id="password" type="password" pattern=".{5,10}" title="Passwrod must be between 5 and 10 characters">
+                    </label>
+                </div>
+                
+                <div>
+                    <label for="birthday">
+                        Birthday:
+                        <select name="month" id="birthday">
+                        <option>Month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+
+                    <select name="day">
+                        <option>Day</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                    </select>
+
+                    <select name="year">
+                        <option>Year</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                    </select>
+                    </label>
+                </div>
+                
+                <div>
+                    <label for="agreed">I agree to the terms and conditions</label>
+                    <input id="agreed" name="checkBox" type="checkbox">
+                </div>
+                
+                 <input type="submit">
+            </form>
+
+        </body>
+    </html>
