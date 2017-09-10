@@ -1,0 +1,15 @@
+.button {
+    margin: 0;
+    font-size: 50px;
+    background-color: aqua;
+    color: azure;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-color: forestgreen;
+}
+
+.toggle {
+    background-color: purple;
+}
